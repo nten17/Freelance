@@ -38,7 +38,6 @@ Reel
   width: auto;
   /*position: relative;*/
   height: 267px;
-  background: red;
 }
 
 /*@media only screen and (max-width: 500px) {
@@ -59,18 +58,18 @@ Portfolio
 ==============*/
 
 .portfolio {
-  width: 100vw;
-  height: 100%;
+  /*width: 100%;
+  height: 100%;*/
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 12;
+  /*flex-grow: 12;*/
   justify-content: center;
   max-width: 700px;
 }
 
 .project {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   margin: 0;
 
   background-color: blue;
@@ -83,11 +82,11 @@ Our Clients
 ==============*/
 
 .clients {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 16;
+  /*flex-grow: 16;*/
   justify-content: center;
   max-width: 600px;
 }
@@ -131,9 +130,11 @@ Footer
   margin: 0 auto;
   flex-direction: row;
   align-items: center;
+
 }
 
 .sm-logo {
+  width: 40px;
   height: inherit;
   margin: 2%;
 }
@@ -220,8 +221,8 @@ input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
 }
 
 #form {
-  position: relative;
-  width: 100vw;
+  /*position: relative;*/
+  width: 100%;
   margin: 25px auto 50px auto;
   max-width: 600px;
 }
@@ -229,7 +230,7 @@ input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
-  width: 100vw;
+  width: 100%;
   max-width: 600px;
   height: 50px;
   padding: 0px 15px 0px 15px;
@@ -253,7 +254,7 @@ input:hover {
 }
 
 textarea {
-  width: 100vw;
+  width: 100%;
   max-width: 600px;
   height: 110px;
   max-height: 110px;
@@ -281,7 +282,7 @@ textarea:hover {
 
 #submit {
   /*width: 502px;*/
-
+  width: inherit;
   padding: 0;
   margin: -5px 0px 0px 0px;
 
