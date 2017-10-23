@@ -29,6 +29,44 @@ Header
 
 }
 
+
+.aspect-ratio--21x9 {
+  padding-bottom: 42.2%;
+ }
+
+ /*==============
+hero
+ ==============*/
+
+.hero-logo{
+  /*width: 300px;*/
+}
+
+.hero {
+ background: linear-gradient(
+  rgba(20,20,20, .5),
+  rgba(20,20,20, .5)),
+  url('assets/hero.jpg');
+ background-position: center;
+ width: 100%;
+ height: 500px;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+/*==============
+Portfolio
+==============*/
+
+.portfolio {
+  /*max-width: 1200px;*/
+}
+
+.project {
+  height: inherit;
+  margin-bottom: -3px;
+  margin-top: -2px;
+}
+
 /*==============
 Reel
 ==============*/
@@ -46,35 +84,24 @@ Reel
   }
 }*/
 
-
-.aspect-ratio--21x9 {
-  padding-bottom: 42.2%;
- }
-
-/*==============
-Portfolio
-==============*/
-
-.portfolio {
-  max-width: 1200px;
-}
-
-.project {
-  /*height: inherit;
-  margin: 0;*/
-}
-
 /*==============
 Our Clients
 ==============*/
 
 .clients {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .client {
-  width: 20%;
+  width: 25%;
   margin: 0;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 500px) {
+  .client {
+    width: 50%;
+  }
 }
 
 /*==============
@@ -85,7 +112,8 @@ Review Quote
   background: linear-gradient(
    rgba(20,20,20, .5),
    rgba(20,20,20, .5)),
-   url('test.png');
+   url('assets/astronauts.png');
+  background-position: center;
   width: 100%;
   height: auto;
   background-size: cover;
