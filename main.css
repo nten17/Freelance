@@ -22,13 +22,11 @@ Header
 ==============*/
 
 .logo {
-  margin: auto;
-  display: block;
+
 }
 
-/*.container {
-  width: 100vw;
-  /*background: blue;*/
+.heading-container {
+}
 
 
 .aspect-ratio--21x9 {
@@ -40,8 +38,27 @@ Navigation
  ==============*/
 
 .navigation-container {
+  margin-top: 0px;
+  margin-right: 0px;
+  background: white;
   /*text-align: center;*/
 
+}
+
+h1 {
+  color: black;
+}
+
+@media only screen and (max-width: 500px){
+  h1 {
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .navigation-container{
+    background: black;
+  }
 }
 
 /*h1 > a {
