@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
   /*background: #e2dedb;*/
   /*color: #b3aca7;*/
 }
@@ -12,6 +12,9 @@ body {
   letter-spacing: 7px;
 }*/
 
+/*.section {
+  font-family: 'Roboto Condensed', sans-serif;
+}*/
 
 
 /*==============
@@ -38,9 +41,28 @@ Header
 hero
  ==============*/
 
-.hero-logo{
-  /*width: 300px;*/
+.hero-video-container{
+  position: relative;
 }
+
+.hero-video{
+  vertical-align: middle;
+  width: 100%;
+}
+
+.hero-logo{
+  background:
+}
+
+.logo-overlay{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+
 
 .hero {
  background: linear-gradient(
@@ -94,6 +116,10 @@ Portfolio
 Reel
 ==============*/
 
+.reel-container {
+  padding-top: -2px;
+}
+
 .reel {
   text-align: center;
   width: auto;
@@ -112,9 +138,6 @@ Reel
 Our Clients
 ==============*/
 
-.clients {
-  max-width: 900px;
-}
 
 .client {
   width: 25%;
@@ -128,6 +151,18 @@ Our Clients
         transform: scale(1);
 }
 
+@media only screen and (max-width: 500px) {
+  .client {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .client {
+    width: 25%;
+  }
+}
+
 .client:hover {
   filter: none;
   transition: .5s;
@@ -136,11 +171,7 @@ Our Clients
         transform: scale(1.12);
 }
 
-@media only screen and (max-width: 500px) {
-  .client {
-    width: 50%;
-  }
-}
+
 
 /*==============
 Review Quote
@@ -274,14 +305,14 @@ input:hover:focus::-ms-placeholder, textarea:hover:focus:-ms-placeholder {
   /*position: relative;*/
   width: 100%;
   margin: 25px auto 50px auto;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 input {
   /*font-family: 'Lato', sans-serif;*/
   font-size: 0.875em;
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   height: 50px;
   padding: 0px 15px 0px 15px;
 
@@ -305,9 +336,9 @@ input {
 
 textarea {
   width: 100%;
-  max-width: 600px;
-  height: 110px;
-  max-height: 110px;
+  max-width: 800px;
+  height: 220px;
+  max-height: 350px;
   padding: 15px;
 
   background: transparent;

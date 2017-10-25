@@ -5,38 +5,58 @@
     <meta charset="utf-8">
     <title>Farallon Creative</title>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
-  <body class="bg-black-05 ma0">
+
+  <!-- off whie bg option -->
+  <!-- <body class="bg-black-05 ma0"> -->
+
+    <!-- white bg option -->
+  <body class="bg-white ma0">
 
 <!-- Header -->
+
     <div class=" w-100 ma0 tc pa4 ">
         <img src="assets/1500w/farallon-logo-black.png" alt="Farallon Logo" class="w-60 w-40-m w-20-l">
-        <!-- <div class=" ma0 pa4">
-          <p class="f3 f2-ns ma0 tc pb0-ns ttu">Sharp in execution. Abstract in thinking.</p>
-        </div> -->
     </div>
+
+
 
 <!-- HERO -->
-    <div class="hero w-100 center flex ">
-        <img class="center hero-logo self-center w-75 w-50-l " src="assets/1500w/farallon-logo-white.png" alt="Farallon Logo and Hero BTS">
+    <div class="">
+      <div class="her-video-container flex justify-center items-center center">
+
+        <video src="assets/website-landing-page.mp4" autoplay poster="assets/hero.jpg" class="hero-video w-100 center h-100">
+        </video>
+
+        <div class="logo-overlay ">
+          <img class="center hero-logo w-75 w-50-l" src="assets/1500w/farallon-logo-white.png" alt="Farallon Logo and Hero BTS">
+        </div>
+
+      </div>
+
+      <div class="ma0 pa4">
+        <p class="f3 f2-l ma0 tc pa3 black">Where ideas go into motion.</p>
+      </div>
+
     </div>
 
-    <div class=" ma0 pa4">
-      <p class="f3 f2-ns ma0 tc pb0-ns ttu">Sharp in execution. Abstract in thinking.</p>
-    </div>
+    <!-- <div class="hero w-100 center flex ">
+        <img class="center hero-logo self-center w-75 w-50-l " src="assets/1500w/farallon-logo-white.png" alt="Farallon Logo and Hero BTS">
+    </div> -->
 
 
 <!-- Portfolio -->
-    <div class="center w-100">
-
+    <div class="center w-100 pb0">
+<!--
       <div class="bg-black white pb0 ma0 w-100">
 
-        <p class="f1-ns f2 ttu b tc ma0 pt4 pb4">Our Work</p>
-        <!-- <p class="f4-ns f5 tc ma0 mb4">(Check out what we do)</p> -->
+         <p class="f1-ns f2 ttu b tc ma0 pt4 pb4">Our Work</p>
+         <p class="f4-ns f5 tc ma0 mb4">(Check out what we do)</p>
 
-      </div>
+      </div> -->
         <div class="portfolio center w-100 flex flex-wrap justify-center ma0 pa0">
 
           <div class="project w-50-m w-25-l flex ">
@@ -145,16 +165,18 @@
     </div>
 
 <!-- Reel -->
-    <div class="pb0 ma0 w-100">
+    <!-- <div class="pb0 ma0 w-100">
 
       <p class="f1-ns f2 ttu b tc ma0 pt4 pb4">Our Reel</p>
       <!-- <p class="f4-ns f5 tc ma0 mb4">(Check out what we do)</p> -->
 
-    </div>
+    <!-- </div> -->
 <!-- autoplay=1&loop=1&autopause=0 -->
-    <div class="pa4 pt0 pa5-ns pt0-ns">
+
+    <div class="reel-containter pa5 bg-black">
       <div class="reel aspect-ratio aspect-ratio--21x9 ">
         <iframe class="aspect-ratio--object" src="https://player.vimeo.com/video/158148836?" width="640" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen ></iframe>
+
         <!-- <p><a href="https://vimeo.com/158148836">The Journey Begins || Bushell Film 2017 Reel</a> from <a href="https://vimeo.com/bushellfilm">Bushell Film</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
       </div>
     </div>
@@ -163,10 +185,10 @@
 
 <!-- Our Clients Section -->
     <div class="ma0 pa1">
-      <p class="f1-ns f2 ttu b tc ma0 pt4 pb1">Our Clients</p>
-      <p class="f4-ns f5 tc ma0 mb4">(Look at our amazing clients)</p>
+      <p class="section f1-ns f2 ttu b tc ma0 pt4 pb1 black">Our Clients</p>
+      <p class="f4-ns f5 tc ma0 mb4 black">(Look at our amazing clients)</p>
 
-      <div class="clients w-100 flex flex-wrap center mb3">
+      <div class="clients w-100 flex flex-wrap center mb3 justify-center">
 
         <div class="client">
           <a target="_blank" href="https://www.morningrecoverydrink.com/" class="">
@@ -187,7 +209,7 @@
         </div>
 
         <div class="client">
-          <a target="_blank" href="???" class="">
+          <a target="_blank" href="https://julianedelman.com/" class="">
             <img src="assets/clients/l-4.png" alt="Jeii Link" class="ma2-ns ma0">
           </a>
         </div>
@@ -229,7 +251,7 @@
         </div>
 
         <div class="client">
-          <a target="_blank" href="???" class="">
+          <a target="_blank" href="http://mach2consulting.com/" class="">
             <img src="assets/clients/l-11.png" alt="Mach 2 Link" class="ma2-ns ma0">
           </a>
         </div>
@@ -281,8 +303,8 @@
         <p class="f3 center pr2 pl2 pt3 pb3 bw1 b--solid b--blak-05 tc w-auto mw5 ttu b grow">Give Us a Buzz!</p>
       </a> -->
 
-      <p class="f1-ns f2 ttu tc b ma0 pt4 pb1 white">Give Us a Buzz</p>
-      <p class="f4-ns f5 tc ma0 white">(Let's work together!)</p>
+      <p class="f1-ns f2 ttu tc b ma0 pt4 pb3 white">Give Us a Buzz</p>
+      <!-- <p class="f4-ns f5 tc ma0 white">(Let's work together!)</p> -->
       <div class="w-100 flex justify-content mt0">
         <form action="http://www.faralloncreative.com/cgi-sys/formmail.pl" method="post" id="form" class="topBefore">
           <input type="hidden" name="recipient" value="naomi.tenenini@gmail.com">
@@ -298,34 +320,28 @@
 <!-- footer     -->
     <div class="bg-dark-gray pa4 ma0 ">
       <div class="social-media ma4 pa2">
-        <!-- twitter -->
-        <a target="_blank" class="sm-logo grow-large" href="https://twitter.com/bushellfilm">
-          <img src="assets/twitter-logo.png" alt="Twitter link">
-        </a>
-        <!-- facebook -->
-        <a target="_blank" class="sm-logo grow-large" href="https://www.facebook.com/BushellFilm/">
-          <img src="assets/facebook-logo.png" alt="Facebook Link">
-        </a>
-        <!-- vimeo -->
-        <a target="_blank" class="sm-logo grow-large" href="https://vimeo.com/bushellfilm">
-          <img src="assets/vimeo-logo.png" alt="Vimeo Link">
-        </a>
-        <!-- linkedin -->
-        <a target="_blank" class="sm-logo grow-large" href="https://www.linkedin.com/company/bushell-film/">
-          <img src="assets/linkedin-logo.png" alt="LinkedIn Link">
-        </a>
-        <!-- youtube -->
-        <a target="_blank" class="sm-logo grow-large" href="https://www.youtube.com/channel/UCTQ2qFsEAdTyur_jB9TRZYA">
-          <img src="assets/youtube-logo.png" alt="Youtube Link">
-        </a>
+
         <!-- instagram -->
         <a target="_blank" class="sm-logo grow-large" href="https://www.instagram.com/faralloncreative/">
           <img src="assets/instagram-logo.png" alt="Instagram Link">
         </a>
+
+        <!-- facebook -->
+        <a target="_blank" class="sm-logo grow-large" href="https://www.facebook.com/bushellfilm/">
+          <img src="assets/facebook-logo.png" alt="Facebook Link">
+        </a>
+
+      <!-- vimeo -->
+      <a target="_blank" class="sm-logo grow-large" href="https://vimeo.com/faralloncreative">
+        <img src="assets/vimeo-logo.png" alt="Vimeo Link">
+      </a>
+
       </div>
 
+
+
       <!-- copyright -->
-        <p class="copyright f5 tc pa1 ma0 ">&copy;2017</p>
+        <p class="copyright f5 tc pa1 ma0 ">&copy;2017 Farallon Creative</p>
 
     </div>
   </body>
