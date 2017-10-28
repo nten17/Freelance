@@ -133,8 +133,8 @@ hero
 Portfolio
 ==============*/
 
-.portfolio {
-  /*max-width: 1200px;*/
+.portfolio img {
+  display: block;
 }
 
 .project {

@@ -3,10 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Farallon Creative</title>
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="tachyons.min.css"/>
+
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <link rel="icon" type="image/png" src="farallon-icon.png">
+
   </head>
 
   <!-- off whie bg option -->
@@ -19,7 +22,7 @@
     <div class="header-container flex-ns justify-between-ns items-center-ns items-center tc ma0 pa0">
 
         <!-- logo -->
-        <!-- <div class="ma0 tc dib pa4 tl-ns bg-red"> -->
+
             <img src="assets/1500w/farallon-logo-black.png" alt="Farallon Logo" class=" w-60 w-30-m w-20-l pa4 pa3-m">
         <!-- </div> -->
 
@@ -74,12 +77,12 @@
         <div class="portfolio center w-100 flex flex-wrap justify-center ma0 pa0" id="work">
 
           <div class="project w-50-m w-25-l flex">
-            <a href="https://player.vimeo.com/video/171876619" class="html5lightbox">
+            <a href="https://player.vimeo.com/video/180349359" class="html5lightbox">
               <img src="assets/portfolio/p-2.png" alt="Find the Beauty In Fitness: Skaar Fitness">
             </a>
 
             <div class="overlay w-100 w-50-m w-25-l flex">
-                <a href="https://player.vimeo.com/video/171876619" class="html5lightbox tc white f3 no-underline center w-100 self-center bg-black-60 pa4">Skaar Fitness</a>
+                <a href="https://player.vimeo.com/video/180349359" class="html5lightbox tc white f3 no-underline center w-100 self-center bg-black-60 pa4">Skaar Fitness</a>
             </div>
           </div>
 
@@ -325,12 +328,12 @@
       <!-- <p class="f4-ns f5 tc ma0 white">(Let's work together!)</p> -->
       <div class="w-100 flex justify-content mt0">
         <form action="http://www.faralloncreative.com/cgi-sys/formmail.pl" method="post" id="form" class="topBefore">
-          <input type="hidden" name="recipient" value="naomi.tenenini@gmail.com">
-          <input id="name" type="text" placeholder="NAME">
-          <input id="email" type="text" placeholder="E-MAIL">
-          <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+          <input type="hidden" name="recipient" value="jack@faralloncreative.com">
+          <input id="name" name="subject" type="text" placeholder="NAME">
+          <input id="email" name="email" type="text" placeholder="E-MAIL">
+          <textarea id="message" name="tellme" type="text" placeholder="MESSAGE"></textarea>
           <input id="submit" type="submit" value="SUBMIT!">
-          <input type="hidden" name="redirect" value="thankyou.html">
+          <input type="hidden" name="redirect" value="http://faralloncreative.com/thankyou.html">
         </form>
       </div>
     </div>
@@ -361,7 +364,7 @@
       <!-- copyright -->
         <p class="copyright f6 tc pa1 ma0 ">&copy;2017 Farallon Creative</p>
 
-    </div>
+      </div>
 
     <script type="text/javascript" src="html5lightbox/html5lightbox.js"></script>
 
